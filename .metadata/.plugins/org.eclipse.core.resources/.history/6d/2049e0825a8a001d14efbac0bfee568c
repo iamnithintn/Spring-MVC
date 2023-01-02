@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SPRINGBOOT</title>
+</head>
+<body>
+	<h1>${springboot}</h1>
+	<marquee behavior="scroll" direction="up" height="200px" bgcolor="red">
+		<font color="red" size="100px">Go Portugal!!</font>
+	</marquee>
+
+	<marquee behavior="slide" direction="right" bgcolor="blue"
+		height="200px" scrollAmount="50" loop="10"> GO Brazil!!!! </marquee>
+
+	<marquee behavior="alternate" direction="down" bgcolor="green"
+		height="200px" scrollAmount="25"> GO Italy!!!! </marquee>
+
+	<marquee behavior="" direction="left" bgcolor="violet" height="100px"
+		scrollAmount="10"> GO Madrid!!!! </marquee>
+	<a href=""></a>
+</body>
+</html>
